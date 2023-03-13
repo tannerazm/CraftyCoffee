@@ -1,0 +1,27 @@
+columnSuffix: qekyzoas
+contentColumnType: text
+fieldGroup: 8411ea9e-6c77-4fff-a6c6-bf950dd522f6 # Drinks
+handle: drinksPageCopy
+instructions: 'Insert drinks page copy text'
+name: 'Drinks Page Copy'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: ''
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

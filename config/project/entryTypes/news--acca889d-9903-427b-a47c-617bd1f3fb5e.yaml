@@ -1,0 +1,79 @@
+fieldLayouts:
+  cbfddbbb-6ddc-441c-bc77-f421a4952d48:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: Headline
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: bd526ccf-2f44-46bc-a063-46f78e7763cb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f343e434-cfea-44bb-a79e-532bee5da632 # Excerpt
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0d77e45a-b85c-421c-a5bb-e86453b4511a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ced65a80-8ef2-447a-b410-7e4db96832a3 # News Page Copy
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bfab181b-19e6-41b6-8942-c8e2b6f3e0f3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d96ba2ab-1dd0-426e-b8b4-ab3a61173d5a
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 45bfa141-779b-4545-b1b0-0fb978eabb24
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'News Headline'
+        uid: 3ed6c182-b0b8-4232-98a2-7e9aa180567c
+        userCondition: null
+handle: news
+hasTitleField: true
+name: News
+section: d6c818a1-2b31-41a2-9442-72050e3d22e6 # News
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

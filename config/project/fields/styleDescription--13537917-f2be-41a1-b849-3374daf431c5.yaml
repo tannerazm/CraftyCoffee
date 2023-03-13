@@ -1,0 +1,19 @@
+columnSuffix: xhivncal
+contentColumnType: text
+fieldGroup: b0fd4576-0056-4f03-9740-0af3f39cd3d2 # Styles
+handle: styleDescription
+instructions: 'Insert a style description'
+name: 'Style Description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

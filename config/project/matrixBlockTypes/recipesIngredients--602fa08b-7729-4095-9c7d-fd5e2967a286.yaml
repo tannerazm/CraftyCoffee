@@ -1,0 +1,77 @@
+field: 29f9f687-2186-4ee6-8d1e-b18913c70fb0 # Recipe Content
+fieldLayouts:
+  819f5e13-842b-4a82-b23f-155a8ae77120:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: dd88eeb2-108c-4f4a-baab-8b603a762674 # Ingredients
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 728e3f59-12bb-41d4-8881-d7125868aaa7
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ab3ddb68-8d90-40d6-b128-c315846aca3d
+        userCondition: null
+fields:
+  dd88eeb2-108c-4f4a-baab-8b603a762674: # Ingredients
+    columnSuffix: tmfjybih
+    contentColumnType: text
+    fieldGroup: null
+    handle: ingredients
+    instructions: null
+    name: Ingredients
+    searchable: true
+    settings:
+      addRowLabel: 'Add a row'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Amount
+                -
+                  - handle
+                  - amount
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - singleline
+          -
+            - col2
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Ingredient
+                -
+                  - handle
+                  - ingredient
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - singleline
+      defaults: null
+      maxRows: null
+      minRows: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
+handle: recipesIngredients
+name: 'Recipes Ingredients'
+sortOrder: 5

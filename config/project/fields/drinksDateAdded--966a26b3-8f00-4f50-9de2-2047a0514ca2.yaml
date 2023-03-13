@@ -1,0 +1,17 @@
+columnSuffix: qdvgoksf
+contentColumnType: datetime
+fieldGroup: 8411ea9e-6c77-4fff-a6c6-bf950dd522f6 # Drinks
+handle: drinksDateAdded
+instructions: 'Enter the date you added the drink'
+name: 'Drinks Date Added'
+searchable: true
+settings:
+  max: null
+  min: null
+  minuteIncrement: 30
+  showDate: true
+  showTime: false
+  showTimeZone: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Date

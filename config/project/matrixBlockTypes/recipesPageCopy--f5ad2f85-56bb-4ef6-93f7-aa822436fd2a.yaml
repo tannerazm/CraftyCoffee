@@ -1,0 +1,54 @@
+field: 29f9f687-2186-4ee6-8d1e-b18913c70fb0 # Recipe Content
+fieldLayouts:
+  e0f2505a-eca1-4855-825b-31f580e13c2e:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 617afff6-2ec5-4e93-9207-71263a051a33 # Page Copy
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1ff7eb5c-d2cb-4983-80e1-83a4afd49716
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 218a6cc5-6fb7-47d6-8b02-65495afab7a0
+        userCondition: null
+fields:
+  617afff6-2ec5-4e93-9207-71263a051a33: # Page Copy
+    columnSuffix: ckvdnipe
+    contentColumnType: text
+    fieldGroup: null
+    handle: pageCopy
+    instructions: 'Insert the page copy for the recipes'
+    name: 'Page Copy'
+    searchable: true
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+handle: recipesPageCopy
+name: 'Recipes Page Copy'
+sortOrder: 3

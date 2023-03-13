@@ -1,0 +1,9 @@
+baseUrl: 'http://craft_craftycoffee-2023.test/'
+enabled: true
+handle: default
+hasUrls: true
+language: en-US
+name: 'Crafty Coffee'
+primary: true
+siteGroup: e29c9c07-c4bd-4a02-9be8-69c07b64a396 # Crafty Coffee
+sortOrder: 1

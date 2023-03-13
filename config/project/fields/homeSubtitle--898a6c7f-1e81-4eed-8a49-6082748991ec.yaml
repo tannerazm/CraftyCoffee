@@ -1,0 +1,19 @@
+columnSuffix: xsrbfjgm
+contentColumnType: text
+fieldGroup: 7a6521b4-eecf-4ad8-864c-697565f96323 # Home
+handle: homeSubtitle
+instructions: 'Insert home page subtitle'
+name: 'Home Subtitle'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

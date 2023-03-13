@@ -1,0 +1,19 @@
+columnSuffix: gdtwxhxm
+contentColumnType: text
+fieldGroup: 1b146738-91b7-4f8c-8a60-a133456ab1e8 # About
+handle: aboutTagline
+instructions: 'Insert about page tagline'
+name: 'About Tagline'
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

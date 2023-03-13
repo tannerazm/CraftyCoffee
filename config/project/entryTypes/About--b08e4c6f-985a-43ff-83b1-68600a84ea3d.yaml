@@ -1,0 +1,79 @@
+fieldLayouts:
+  dc53d3c6-97a6-418e-af51-8d91ee173de0:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: ca1c0e12-f337-46e7-9633-093c4ad9e55b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 88faf299-e33b-4a66-b1a0-6b32e27f4f1c # About Tagline
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6e09bc4f-c020-4912-80bc-818e21d5c1b4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f4559697-3a31-413c-860e-915450a87002 # About Introduction
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9ca0cb20-0ac8-4737-910e-7d366ee7df3d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 88cccf6f-6447-4a9d-ba55-8b70f89e136b # About Page Copy
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6a2718a4-dc1d-47d5-8f10-1e1510d748c7
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'About Page'
+        uid: 5ce4868e-7358-4d54-917b-66d3e1be6b5c
+        userCondition: null
+handle: About
+hasTitleField: true
+name: About
+section: d3f4c271-1bf6-47a6-9565-60036b79c80c # About Crafty Coffee
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

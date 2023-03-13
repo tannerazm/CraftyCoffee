@@ -1,0 +1,43 @@
+fieldLayouts:
+  3c002350-5e2b-4039-9e0c-37a2e1b36a0d:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: f3700ddc-fc86-43ed-96d1-ae1c7a941037
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: c4352321-33f9-4365-ac15-ee00e3e1724e
+        userCondition: null
+fs: drinks
+handle: drinks
+name: Drinks
+sortOrder: 1
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+transformFs: ''
+transformSubpath: ''

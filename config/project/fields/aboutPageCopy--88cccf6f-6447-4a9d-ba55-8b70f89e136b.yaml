@@ -1,0 +1,27 @@
+columnSuffix: jstcmfsu
+contentColumnType: text
+fieldGroup: 1b146738-91b7-4f8c-8a60-a133456ab1e8 # About
+handle: aboutPageCopy
+instructions: 'Insert about page copy text'
+name: 'About Page Copy'
+searchable: false
+settings:
+  availableTransforms: '*'
+  availableVolumes: '*'
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

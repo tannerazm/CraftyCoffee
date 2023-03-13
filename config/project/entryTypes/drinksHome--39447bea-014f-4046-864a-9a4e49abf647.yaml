@@ -1,0 +1,43 @@
+fieldLayouts:
+  511e2470-b156-4d41-87da-8a7f87fee2f6:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: f4f9a5b7-0f78-4950-bad9-8f82819b3a95
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: de337747-42b5-445a-990f-435e4e41558e
+        userCondition: null
+handle: drinksHome
+hasTitleField: false
+name: 'Drinks Home'
+section: cd7ef876-fda0-4bc5-b846-e4b05f232b16 # Drinks Home
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

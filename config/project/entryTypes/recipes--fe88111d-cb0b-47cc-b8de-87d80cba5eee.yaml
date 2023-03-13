@@ -1,0 +1,79 @@
+fieldLayouts:
+  426971cc-663e-481b-8f02-e9d0a17ee5a2:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 0909d6fa-df27-4f32-9626-8dbdde285479 # Drink Style
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 526c48ec-5e0c-4f6e-9895-a190a10eb954
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 24522847-a1e0-4291-afde-f67f7e7e0d68 # Recipes Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 41138068-78b8-481f-8d5b-6f1d61ebeea9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: 'Recipe Name'
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 0e0ecbdc-9882-498e-a98a-0ce115ee011d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 29f9f687-2186-4ee6-8d1e-b18913c70fb0 # Recipe Content
+            instructions: null
+            label: 'Recipe Content'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ddba0306-4db3-497f-96c3-d324bf5b3b98
+            userCondition: null
+            warning: null
+            width: 100
+        name: Recipes
+        uid: 8f901168-72c9-40a7-bb18-049356c091ff
+        userCondition: null
+handle: recipes
+hasTitleField: true
+name: Recipes
+section: 24ed68b3-c1b4-4185-9169-20b5ff16ee71 # Recipes
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

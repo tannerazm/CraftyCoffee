@@ -1,0 +1,19 @@
+columnSuffix: stppqqkp
+contentColumnType: text
+fieldGroup: ad9cf111-7f42-43a7-a477-a634d62a9b71 # Common
+handle: excerpt
+instructions: 'Insert excerpt'
+name: Excerpt
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

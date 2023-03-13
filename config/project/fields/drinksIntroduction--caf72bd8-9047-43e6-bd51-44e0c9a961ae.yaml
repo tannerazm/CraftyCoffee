@@ -1,0 +1,19 @@
+columnSuffix: pdyhlexa
+contentColumnType: text
+fieldGroup: 8411ea9e-6c77-4fff-a6c6-bf950dd522f6 # Drinks
+handle: drinksIntroduction
+instructions: 'Short sentence at top of drink page'
+name: 'Drinks Introduction'
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 2
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
