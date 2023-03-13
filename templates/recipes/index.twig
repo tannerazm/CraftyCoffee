@@ -1,0 +1,35 @@
+{% extends "_layouts/main" %}
+
+{% block main %}
+<ul class="breadcrumbs">
+    <li><a href="/">Home</a></li>
+    <li>Recipes</li>
+</ul>
+    <div class="full-bleed-header" style="background-size: 100%; height: 200px; background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(/images/uploads/drinks/chemex.jpg); background-repeat: no-repeat, repeat;">
+    <div class="page-title text-center">
+        <h2 class="logo"><span class="scripty">Latest Coffee Recipes</h2>
+    </div>
+</div>
+<div class="row">
+        <div class="intro large-12 small-12 columns text-center">
+                    <p>Make our signature coffee drinks at home. We don't care. Bring some in for us to try and we'll compare. If yours is better, we'll hire you. On the spot.<br> Just ask our head barista.</p>
+        </div>
+    <div class="large-12 small-12 columns">
+        <table width="100%">
+            <tr>
+                <th>Drink Name</th>
+                <th>Added to Menu On</th>
+                <th>Style</th>
+            </tr>
+            {% for drink in craft.entries.section("drinks").limit(10).all() %}
+                <tr>
+                    <td><a href="{{ drink.url }}">{{ drink.title }}</a></td>
+                    <td>{{ drink.postDate | date('M Y') }}</td>
+                    {% set dSCategory = craft.categories.group("drinkStyles").relatedTo(drink).one() %}
+                    <td><a href="{{ dSCategory.uri }}">{{ dSCategory.title }}</a></td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
+</div>
+{% endblock %}

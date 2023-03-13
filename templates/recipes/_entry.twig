@@ -11,9 +11,6 @@
         <h2 class="logo"><span class="scripty">{{ entry.title }}</h2>
         {% set styles = craft.categories.group("drinkStyles").all() %}
         {% for style in styles %}
-            <pre>
-                {{ dump(style) }}
-            </pre>
             {% if style.title == entry.title %}
                 <p class="tagline reverse">{{ style.title }}</p>
             {% endif %}

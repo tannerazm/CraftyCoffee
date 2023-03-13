@@ -19,6 +19,6 @@ siteSettings:
   037296d6-cae9-410a-9f08-b0b09fc4dd7a: # Crafty Coffee
     enabledByDefault: true
     hasUrls: true
-    template: drinks/index
-    uriFormat: drinks
+    template: drinks/_entry.twig
+    uriFormat: drinks-home
 type: single

@@ -10,7 +10,7 @@ previewTargets:
         - 'Primary entry page'
       -
         - urlFormat
-        - '{url}'
+        - 'http://craftycoffee.test/'
       -
         - refresh
         - '1'

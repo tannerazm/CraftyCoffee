@@ -1,5 +1,5 @@
 fieldLayouts:
-  511e2470-b156-4d41-87da-8a7f87fee2f6:
+  707cebc1-1977-4103-a2a3-d6f52ed5641d:
     tabs:
       -
         elementCondition: null
@@ -26,17 +26,17 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: f4f9a5b7-0f78-4950-bad9-8f82819b3a95
+            uid: 4ed50fd7-3baa-478a-94ee-8fbb878995cd
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: de337747-42b5-445a-990f-435e4e41558e
+        uid: 50a9e2ec-5f5f-435d-95a5-bb45e4782553
         userCondition: null
 handle: drinksHome
 hasTitleField: false
 name: 'Drinks Home'
-section: cd7ef876-fda0-4bc5-b846-e4b05f232b16 # Drinks Home
+section: 9b453435-65f4-41fd-8d9c-49fd06d085dd # Drinks Home
 sortOrder: 1
 titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null
